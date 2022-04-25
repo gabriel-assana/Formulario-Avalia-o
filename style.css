@@ -10,16 +10,76 @@
 
 
 header{
-    content:"";
-    position: absolute;
-    top: 0;
-    left: 0;
+    display: flex;
+    flex-direction: column;
     background-color: #293241;
+
+    position: absolute;
+    z-index: -1;
 
     width: 100%;
     height: 46.5rem;
-    z-index: -1;
+    
+    color: #FFFFFF;
 }
+
+.container-header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 10.7rem auto 0 auto;
+}
+
+header h1 {
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+
+}
+
+header p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    margin-bottom: 2rem;
+}
+
+header img {
+    width: 22.5rem;
+    margin-bottom: 3.2rem;   
+}
+
+
+.form-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 75.0rem;
+    height: 13.8rem;
+
+    border-radius: 20px 20px 0px 0px;
+    background-color: #F67669;
+    
+    margin: 0 auto;  
+    
+}
+
+.form-top p {
+
+    font-family: 'Staatliches';
+    
+    font-size: 24px;
+    text-align: center;
+    line-height: 34px;
+    font-weight: 400;
+    
+    margin: 0 auto; 
+} 
 
 body {
     background-color: #BFD7E4;
