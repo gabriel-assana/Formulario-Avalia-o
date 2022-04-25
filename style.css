@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%; /* 10px */
+}
+
+
+header{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #293241;
+
+    width: 100%;
+    height: 46.5rem;
+    z-index: -1;
+}
+
+body {
+    background-color: #BFD7E4;
+}
