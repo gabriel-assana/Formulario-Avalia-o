@@ -1,10 +1,10 @@
 <h1 align="center">
-  Formulario-de- Avaliação
+  Formulario-de-Avaliação
 </h1>
 
 <h2 align="center" >Descrição do Projeto</h2>
 <p align="center">
-  Formulario-de- Avaliação é o 2° desafio do Nivel 03 do programa Explorer da Rockeseat.
+  Formulario-de-Avaliação é o 2° desafio do Nivel 03 do programa Explorer da Rockeseat.
  
 </p>
 </br>
